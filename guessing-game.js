@@ -16,7 +16,7 @@ function guessingGame() {
     if (num < randomNumber) return `${num} is too low!`
     if (num === randomNumber && win === false) {
       win = true;
-      return `You win! You found ${num} in ${guesses} guesses!`
+      return `You win! You found ${num} in ${guesses} guesses.`
     }
   }
 }
